@@ -11,7 +11,7 @@ float tinhTienLuongThang13(float soNamKinhNghiem, float soNamLamViec) {
     } else {
         mucThuong = 30000000;
     }
-    if (soNamLamViec > 1) {
+    if (soNamLamViec < 1) {
         heSo = 0.3;
     } else if (soNamLamViec > 1 && soNamLamViec <= 2) {
         heSo = 0.5;
